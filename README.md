@@ -31,14 +31,17 @@ luarocks install https://raw.githubusercontent.com/szym/display/master/display-s
 
 Model
 -----
+3D conv-nets [C3D](http://vlg.cs.dartmouth.edu/c3d/)
 
 Data Setup 
 ----------
+THUMOS'15 dataset can be downloaded from [THUMOS](http://www.thumos.info/download.html)
+
 
 Training
 --------
 
-Finally, to start training, just do:
+To start training, just do:
 
 ```bash
 $ CUDA_VISIBLE_DEVICES=0 th main.lua
